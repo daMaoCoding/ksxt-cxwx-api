@@ -2,7 +2,7 @@
 
 * url：```https://2858y3h397.qicp.vip/cxwx/modifyPwd```
 
-* type:GET
+* type:POST
 
 * params:
 
