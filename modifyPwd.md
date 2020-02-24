@@ -2,13 +2,19 @@
 
 > + url：```https://2858y3h397.qicp.vip/cxwx/modifyPwd```
 > + type:GET
-> + params: 
+> + params:
 
-	>> | 字段 | 类型   | 是否必填 |
-	>> | ---- | ------ | -------- |
-	>> |      | String | 是       |
-	>> |      | String | 是       |
-	>> |      | String | 是       |
+| 字段   | 类型   | 是否必填 |
+| ------ | ------ | -------- |
+| userId | string | 是       |
+| oldPwd | string | 是       |
+| ewPwd  | string | 是       |
+
+
+
+
+
+
 
 # 出参：
 
