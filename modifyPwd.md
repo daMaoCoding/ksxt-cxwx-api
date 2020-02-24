@@ -1,8 +1,10 @@
 # 入参：
 
-> + url：```https://2858y3h397.qicp.vip/cxwx/modifyPwd```
-> + type:GET
-> + params:
+* url：```https://2858y3h397.qicp.vip/cxwx/modifyPwd```
+
+* type:GET
+
+* params:
 
 | 字段   | 类型   | 是否必填 |
 | ------ | ------ | -------- |
