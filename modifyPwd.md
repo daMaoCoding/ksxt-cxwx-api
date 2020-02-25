@@ -10,7 +10,8 @@
 | ------ | ------ | -------- |
 | userId | string | 是       |
 | oldPwd | string | 是       |
-| ewPwd  | string | 是       |
+| newPwd | string | 是       |
+| token  | String | 是       |
 
 
 
