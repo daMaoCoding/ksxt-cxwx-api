@@ -8,16 +8,9 @@
 
 | 字段   | 类型   | 是否必填 |
 | ------ | ------ | -------- |
-| userId | string | 是       |
+| token  | string | 是       |
 | oldPwd | string | 是       |
 | newPwd | string | 是       |
-| token  | String | 是       |
-
-
-
-
-
-
 
 # 出参：
 
