@@ -2,11 +2,11 @@
 
 * [修改密码](modifyPwd.md)
 
-* [解除微信绑定](README.md)
+* [解除微信绑定](userRemoveOpenId.md)
 
-* [订单管理(买方)](README.md)
+* [订单管理(买方)](order.md)
 
-* [订单管理(卖方)](README.md)
+* [订单管理(卖方)](order2.md)
 
 * [客户管理(卖方)](README.md)
 
