@@ -16,6 +16,13 @@
 
 5. [客户管理(卖方)](crm-sell/README.md)
    1. [查询【刷新】](crm-sell/list.md)
+   2. [添加](crm-sell/receiveEntsave.md)
+   3. [修改【查询】](crm-sell/receiveEntEdit.md)
+   4. [修改【提交】](crm-sell/receiveEntsave.md)
+   5. [充值【查询】](crm-sell/chongzhi.md)
+   6. [充值【提交】](crm-sell/addchongzhisave2.md)
+   7. [导出excel](crm-sell/exportOutStationExcel.md)
+   8. [删除](crm-sell/receiveEntdelect.md)
 
 6. [ 矿种设置(卖方)](mineset-sell/README.md)
 
