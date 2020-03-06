@@ -17,3 +17,13 @@
 # 出参
 
 > 无返回值，直接下载文件。
+
+# 示例
+
+* 请求
+
+>`https://2858y3h397.qicp.vip/cxwx/supplierEnt/exportOutStationExcel?token=123456&pageNumber=1&pageSize=10`
+
+* 响应
+
+> excel文件

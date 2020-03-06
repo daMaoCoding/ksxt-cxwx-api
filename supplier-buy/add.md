@@ -18,3 +18,25 @@
 | status  | Integer | 1 成功<br />其他值失败 |
 | message | string  | status的描述信息       |
 
+# 示例
+
+* 请求
+
+>{
+>"token":123456,
+>"name": "岑溪市超达石业有限公司2",
+>"supplierEndId": "03567AA13E1446C68B3AE3CD50232A31",
+>"name1": "03567AA13E1446C68B3AE3CD50232A31",
+>"legalPerson": "test",
+>"contacts": "test",
+>"mobile": "13800138000",
+>"remark": "test"
+>}
+
+* 响应
+
+>{
+>  "state" : 1,
+>  "message" : "OK",
+>  "data" : null
+>}
