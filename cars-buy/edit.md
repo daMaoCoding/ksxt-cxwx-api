@@ -1,2 +1,2 @@
-[跟add接口一样](add.md)
+[跟save接口一样](save.md)
 

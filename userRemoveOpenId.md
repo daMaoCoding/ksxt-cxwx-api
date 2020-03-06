@@ -20,3 +20,16 @@
 | message | String  |   对status的描述    |
 |  data   | Object  |         空          |
 
+# 示例
+
+* 请求
+
+> `https://2858y3h397.qicp.vip/cxwx/userRemoveOpenId?token=123456`
+
+* 响应
+
+> {
+>   "state" : 1,
+>   "message" : "OK",
+>   "data" : null
+> }
