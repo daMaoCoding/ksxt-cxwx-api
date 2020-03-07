@@ -21,3 +21,25 @@
 | message | string     | 对status的描述           |
 | data    | JsonObject | {<br />code:0<br />}     |
 
+# 示例
+
+* 请求
+
+> {
+> "token":123456,
+> "id":"177482f07a1e11e974b14704957c2a21",
+> "danjia": "1",
+> "zfxs": "1",
+> "inventory": "2",
+> "place": "test"
+> }
+
+* 响应
+
+> {
+>   "state" : 1,
+>   "message" : "OK",
+>   "data" : {
+>     "code" : "0"
+>   }
+> }

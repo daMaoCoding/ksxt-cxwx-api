@@ -63,7 +63,7 @@
 7. [充值记录(卖方-wf已做)](charge-sell/README.md)
    1. [查询【转】【重置】](charge-sell/querymass.md)
    2. [导出](charge-sell/exportOutStationExcel.md)
-   3. [查看优惠价格](charge-sell/README.md)
+   3. [查看优惠价格](charge-sell/mineralEntSet-list.md)
 
 8. [供应商管理(买方)](supplier-buy/README.md)
 

@@ -19,3 +19,25 @@
 | message | string     | 对status的描述                            |
 | data    | JsonObject | {<br />code:0 ,表示成功，1表示失败<br />} |
 
+# 示例
+
+* 请求
+
+> {
+> "token":123456,
+> "id":"0344a6309ee911e92e1ee9a8481aca5b",
+> "danjia": "2",
+> "zfxs": "2",
+> "inventory": "2",
+> "place": "test"
+> }
+
+* 响应
+
+> {
+>   "state" : 1,
+>   "message" : "OK",
+>   "data" : {
+>     "code" : 0
+>   }
+> }
