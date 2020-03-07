@@ -861,7 +861,7 @@
                                 
                                 <h1 id="&#x5165;&#x53C2;">&#x5165;&#x53C2;</h1>
 <ul>
-<li>url&#xFF1A;<code>https://2858y3h397.qicp.vip/cxwx/exportOutStationExcel/quermass</code></li>
+<li>url&#xFF1A;<code>https://2858y3h397.qicp.vip/cxwx/receiveEntRecharge/queryMass</code></li>
 <li>type:GET</li>
 <li>params:</li>
 </ul>
@@ -885,12 +885,12 @@
 <td>&#x662F;</td>
 </tr>
 <tr>
-<td>startTime</td>
+<td>startTime1</td>
 <td>string</td>
 <td>&#x662F;</td>
 </tr>
 <tr>
-<td>endTime</td>
+<td>endTime1</td>
 <td>string</td>
 <td>&#x662F;</td>
 </tr>
@@ -907,6 +907,104 @@
 </tbody>
 </table>
 <h1 id="&#x51FA;&#x53C2;">&#x51FA;&#x53C2;</h1>
+<table>
+<thead>
+<tr>
+<th>&#x5B57;&#x6BB5;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x503C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>Integer</td>
+<td>1 &#x6210;&#x529F;<br>&#x5176;&#x4ED6;&#x503C;&#x5931;&#x8D25;</td>
+</tr>
+<tr>
+<td>message</td>
+<td>string</td>
+<td>status&#x7684;&#x63CF;&#x8FF0;</td>
+</tr>
+<tr>
+<td>data</td>
+<td>JsonObject</td>
+<td>{<br>bean:ReceiveEntRecharge<br>pageParams:<code>Map&lt;String,Object&gt;</code><br>page:<code>Page&lt;ReceiveEntRecharge&gt;</code><br>lsitent:<code>List&lt;ReceiveEnt&gt;</code><br>end:endTime<br>sta:startTime<br>}</td>
+</tr>
+</tbody>
+</table>
+<h1 id="&#x793A;&#x4F8B;">&#x793A;&#x4F8B;</h1>
+<ul>
+<li>&#x8BF7;&#x6C42;</li>
+</ul>
+<blockquote>
+<p><code>https://2858y3h397.qicp.vip/cxwx/receiveEntRecharge/queryMass?token=123456&amp;receiveEntId1=0bd88dc0593d11ea12bd32d1c58070fe&amp;startTime1=2020-01-01&amp;endTime1=2020-03-07&amp;pageSize=10&amp;pageNumber=1</code></p>
+</blockquote>
+<ul>
+<li>&#x54CD;&#x5E94;</li>
+</ul>
+<blockquote>
+<p>{
+ &quot;state&quot; : 1,
+ &quot;message&quot; : &quot;OK&quot;,
+ &quot;data&quot; : {
+   &quot;pageParams&quot; : {
+     &quot;xjMoney&quot; : 0,
+     &quot;giveMoney&quot; : 0,
+     &quot;receiveEntId1&quot; : &quot;0bd88dc0593d11ea12bd32d1c58070fe&quot;,
+     &quot;mineralPrice&quot; : 0,
+     &quot;pageEnd&quot; : 0,
+     &quot;pageStart&quot; : 0,
+     &quot;useAccount&quot; : 0,
+     &quot;startTime&quot; : &quot;2020-01-01 00:00:00&quot;,
+     &quot;endTime&quot; : &quot;2020-03-07 23:59:59&quot;,
+     &quot;accountBalance&quot; : 0
+   },
+   &quot;sta&quot; : &quot;2020-01-01&quot;,
+   &quot;end&quot; : &quot;2020-03-07&quot;,
+   &quot;page&quot; : {
+     &quot;pageNumber&quot; : 1,
+     &quot;pageSize&quot; : 10,
+     &quot;totalCount&quot; : 0,
+     &quot;pageCount&quot; : 0,
+     &quot;content&quot; : [ ],
+     &quot;param&quot; : { }
+   },
+   &quot;lsitent&quot; : [ {
+     &quot;excludeOperateId&quot; : null,
+     &quot;dealUserId&quot; : null,
+     &quot;states&quot; : null,
+     &quot;order&quot; : null,
+     &quot;pageSize&quot; : null,
+     &quot;currentPage&quot; : null,
+     &quot;id&quot; : &quot;be123e4085cc11e9491b8e73bcd21860&quot;,
+     &quot;taxpayerCode&quot; : null,
+     &quot;name&quot; : &quot;&#x9648;&#x6CE2;&quot;,
+     &quot;legalPerson&quot; : null,
+     &quot;contacts&quot; : null,
+     &quot;mobile&quot; : null,
+     &quot;coOwner&quot; : null,
+     &quot;validity&quot; : null,
+     &quot;status&quot; : 1,
+     &quot;entId&quot; : &quot;0fa929207ae311e974b14704957c2a21&quot;,
+     &quot;address&quot; : null,
+     &quot;remark&quot; : null,
+     &quot;createTime&quot; : 1559545002200,
+     &quot;creater&quot; : null,
+     &quot;modifyTime&quot; : null,
+     &quot;modifier&quot; : null,
+     &quot;accountBalance&quot; : null,
+     &quot;entNo&quot; : null,
+     &quot;chargeStatus&quot; : null,
+     &quot;receiveEntId&quot; : null,
+     &quot;isPreDeposit&quot; : null,
+     &quot;rechargeAccount&quot; : null,
+     &quot;giveMoney&quot; : null,
+     &quot;ids&quot; : null
+   }
+ }
+}</p>
+</blockquote>
 
                                 
                                 </section>
@@ -950,7 +1048,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"查询【转】【重置】","level":"2.4.1","depth":2,"next":{"title":"导出","level":"2.4.2","depth":2,"path":"charge-sell/exportOutStationExcel.md","ref":"charge-sell/exportOutStationExcel.md","articles":[]},"previous":{"title":"充值记录(卖方-wf已做)","level":"2.4","depth":1,"path":"charge-sell/README.md","ref":"charge-sell/README.md","articles":[{"title":"查询【转】【重置】","level":"2.4.1","depth":2,"path":"charge-sell/querymass.md","ref":"charge-sell/querymass.md","articles":[]},{"title":"导出","level":"2.4.2","depth":2,"path":"charge-sell/exportOutStationExcel.md","ref":"charge-sell/exportOutStationExcel.md","articles":[]},{"title":"查看优惠价格","level":"2.4.3","depth":2,"path":"charge-sell/README.md","ref":"charge-sell/README.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"charge-sell/querymass.md","mtime":"2020-02-28T09:50:40.636Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-06T09:40:31.764Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"查询【转】【重置】","level":"2.4.1","depth":2,"next":{"title":"导出","level":"2.4.2","depth":2,"path":"charge-sell/exportOutStationExcel.md","ref":"charge-sell/exportOutStationExcel.md","articles":[]},"previous":{"title":"充值记录(卖方-wf已做)","level":"2.4","depth":1,"path":"charge-sell/README.md","ref":"charge-sell/README.md","articles":[{"title":"查询【转】【重置】","level":"2.4.1","depth":2,"path":"charge-sell/querymass.md","ref":"charge-sell/querymass.md","articles":[]},{"title":"导出","level":"2.4.2","depth":2,"path":"charge-sell/exportOutStationExcel.md","ref":"charge-sell/exportOutStationExcel.md","articles":[]},{"title":"查看优惠价格","level":"2.4.3","depth":2,"path":"charge-sell/README.md","ref":"charge-sell/README.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"charge-sell/querymass.md","mtime":"2020-03-07T07:31:39.776Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-07T07:33:41.757Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
